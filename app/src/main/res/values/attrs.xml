@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FractionalNumberProgressBarView">
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="maxValueSize" format="dimension" />
+        <attr name="progressValueSize" format="dimension" />
+        <attr name="finishColor" format="color" />
+        <attr name="unFinishColor" format="color" />
+        <attr name="progressCircleColor" format="color" />
+        <attr name="progressCircleShadowColor" format="color" />
+        <attr name="maxValueColor" format="color" />
+        <attr name="progressValueColor" format="color" />
+    </declare-styleable>
+</resources>

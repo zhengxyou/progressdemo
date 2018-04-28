@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_progressValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+    </LinearLayout>
+
+    <com.zhengxyou.progressdemo.FractionalNumberProgressBarView
+        android:id="@+id/progressbar"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        app:max="5000"
+        app:maxValueSize="12sp"
+        app:progressCircleColor="#2CD8FB"
+        app:strokeWidth="4dp" />
+
+    <com.zhengxyou.progressdemo.FractionalNumberProgressBarView
+        android:id="@+id/progressbar1"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        app:max="5000"
+        app:maxValueSize="14sp"
+        app:progressCircleColor="@android:color/white"
+        app:progressCircleShadowColor="@android:color/holo_blue_dark"
+        app:strokeWidth="6dp" />
+
+    <com.zhengxyou.progressdemo.FractionalNumberProgressBarView
+        android:id="@+id/progressbar2"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        app:finishColor="@color/colorPrimaryDark"
+        app:max="5000"
+        app:maxValueSize="18sp"
+        app:progressCircleColor="#2CD8FB"
+        app:progressValueColor="@android:color/holo_blue_dark"
+        app:progressValueSize="14sp"
+        app:strokeWidth="3dp"
+        app:unFinishColor="@color/colorAccent" />
+</LinearLayout>
