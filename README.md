@@ -30,4 +30,4 @@
         <!--进度的字体颜色-->
     </declare-styleable>
 ```
->>>>>>>>![Image](https://github.com/zhengxyou/progressdemo/blob/master/Screenshot_2018-04-28-16-09-46-962_com.zhengxyou..png)
+>>>>>>>>![Image](https://github.com/zhengxyou/progressdemo/blob/master/Screenshot_2018-04-28-16-09-46-962_com.zhengxyou.gif)
